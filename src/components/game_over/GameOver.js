@@ -1,6 +1,6 @@
 import "./GameOver.css";
 
-const GameOver = () => {
+const GameOver = ({ retry }) => {
   return <div>GameOver</div>;
 };
 

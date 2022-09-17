@@ -20,12 +20,26 @@ const stages = [
 
 function App() {
   const [gameStage, setGameStage] = useState(stages[0].name);
+  const [words] = useState(wordsList);
+
+  //starts the secret word game
+  const startGame = () => {
+    setGameStage(stages[1].name);
+  };
+
+  //process the latter input
+  const verifyLetter = () => {};
+
+  //restarts the game
+  const retry = () => {
+    setGameStage(stages[1].name);
+  };
 
   return (
     <div className="App">
-      {gameStage === "start" && <StartScreen />}
-      {gameStage === "game" && <Game />}
-      {gameStage === "end" && <GameOver />}
+      {gameStage === "start" && <StartScreen startGame={startGame} />}
+      {gameStage === "game" && <Game verifyLetter={verifyLetter} />}
+      {gameStage === "end" && <GameOver retry={retry} />}
     </div>
   );
 }
