@@ -18,7 +18,12 @@ const Game = ({ verifyLetter }) => {
         <p>Tente advinhar uma letra da palavra:</p>
         <form action="">
           <input type="text" name="letter" maxLength="1" required />
+          <button>Jogar </button>
         </form>
+      </div>
+      <div className="wrongLetterContainer">
+        <p>Letras já utilizadas:</p>
+        <span></span>
       </div>
     </div>
   );
