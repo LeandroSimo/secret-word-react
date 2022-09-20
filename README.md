@@ -1,3 +1,34 @@
+<h1 align="center">
+    Frontend Books Store
+</h1>
+
+<p align="center">
+  <a></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#information_source-mais">Mais sobre a Tecnologia</a>
+</p>
+
+<p align="center">
+  <img alt="Home Screen" src="https://user-images.githubusercontent.com/56087579/191154142-d3c35e11-1b33-4ac3-ad4c-384916e38794.png" width="650px">
+</p>
+
+## 💻 Projeto
+
+Este projeto foi desenvolvido com base em curso em vídeo para fins de estudos.
+
+## :rocket: Tecnologias
+
+Essa aplicação foi desenvolvida com as seguintes tecnologias:
+- [JavaScript][javascript]
+- [ReactJs][reactjs]
+- [Node][node]
+- [npm][npm]
+
+<h1 align="center">
+  <a id="information_source-mais">:information_source: Mais sobre a Tecnologia :</a>
+</h1>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +99,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+[javascript]: https://www.javascript.com/
+[reactjs]: https://pt-br.reactjs.org/
+[node]: https://nodejs.org/en/
+[npm]: https://www.npmjs.com/
