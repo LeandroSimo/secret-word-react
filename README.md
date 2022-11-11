@@ -1,5 +1,5 @@
 <h1 align="center">
-    Frontend Books Store
+    Secret Word
 </h1>
 
 <p align="center">
